@@ -1,0 +1,17 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "build_package_test"
+path = "main.rs"
+
+[lib]
+name = "build_package_test"
+path = "lib.rs"
+
+[dependencies]
+
+[build-dependencies]
+glob = "0.3.0"

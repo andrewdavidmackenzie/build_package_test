@@ -1,0 +1,6 @@
+[workspace]
+members = ["project"]
+default-members = ["project"]
+
+[profile.dev]
+split-debuginfo = "unpacked"
